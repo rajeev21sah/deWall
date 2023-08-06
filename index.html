@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="navbar">
+            <div class="logo"><a href="#">deWall</a></div>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#visit">Visit us</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#visit">Visit us</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="home_page">
+
+    </div>
+
+
+    <!--.............About Page.............-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/Picture 1.png" alt="Pofile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas reprehenderit modi, praesentium
+                        hic aliquam voluptate in architecto nostrum culpa aliquid tempora aperiam expedita earum maxime
+                        nam quo beatae perferendis corrupti!
+                        Aliquam eius quidem nulla similique voluptatem quia, libero dolor? Eius, explicabo. Fugit,
+                        inventore. Et libero minus, quisquam atque laboriosam amet numquam ea ipsam magnam, quibusdam
+                        nesciunt tenetur quia necessitatibus mollitia.
+                        Aperiam voluptatum corporis exercitationem. At distinctio recusandae iure amet magnam
+                        reiciendis, ad ullam consequuntur dolor magni sapiente fuga obcaecati culpa expedita aliquam hic
+                        voluptate vitae laudantium repellendus molestias necessitatibus debitis?
+                        Deserunt facere commodi explicabo saepe ad placeat culpa repudiandae. Dolore, reiciendis
+                        incidunt soluta quibusdam expedita, libero aperiam similique non sunt, minus neque repellat?
+                        Iusto animi mollitia fugiat neque dignissimos vel!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--.............Services.............-->
+    <div id="services">
+        <div class="container">
+            <h1 class="service_heading">Services</h1>
+            <div class="header_btn">
+                <button type="button" class="resume"><a href="">Room Owners</a></button>
+                <button type="button" class="resume"><a href="">Companies</a></button>
+                <button type="button" class="resume"><a href="">For Marketing and Pormotion</a></button>
+                <button type="button" class="resume"><a href="">Sponsors</a></button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="services-col-1">
+                    <img src="Image/1.jpeg" alt="Pofile Picture">
+                </div>
+                <div class="services-col-2">
+                    <img src="Image/3.webp" alt="picture_2">
+                </div>
+                <div class="services-col-3">
+                    <img src="Image/picture-icon-photo-symbol-illustration-for-web-and-mobil-app-on-grey-background-free-vector.jpg"
+                        alt="picture_2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--................Footer.....................-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <div id="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19800.569667921707!2d84.93224625574327!3d26.608864542221127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1691335653855!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact_form">
+                    <h1>Contact Me</h1>
+                    <form action="submit_form.php" method="post">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
