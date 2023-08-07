@@ -168,22 +168,33 @@ body {
     flex-wrap: wrap;
 }
 
-.about-col-1 {
+/*.about-col-1 {
     flex-basis: 35%;
 }
 
 .about-col-1 img {
     width: 100%;
     border-radius: 15px;
-}
+}*/
 
 .about-col-2 {
-    flex-basis: 60%;
+    flex-basis: 100%;
 }
 
 .about-col-2 p {
-    font-size: 18px;
+    color: white;
+    margin-top: 50px;
+    font-size: 22px;
     font-weight: 500;
+}
+
+.second_row {
+    flex-basis: 100%;
+    margin-top: 100px;
+}
+
+.second_row img {
+    width: 100%;
 }
 
 .sub-title {
@@ -332,13 +343,15 @@ textarea {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #E65F78;
     color: #fff;
     padding: 10px;
     border: none;
     cursor: pointer;
+    transition: 0.9s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #f03c5d;
+    transition: 0.9s;
 }
